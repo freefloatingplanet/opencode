@@ -20,7 +20,11 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:opencode.openTerminal",
+    "onCommand:opencode.openNewTerminal",
+    "onCommand:opencode.addFilepathToTerminal"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
